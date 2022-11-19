@@ -1,0 +1,101 @@
+/* * {
+  margin: 0;
+}
+body {
+  background-color: #faaca8;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+p {
+  margin-top: 60px;
+  margin-left: 30px;
+  color: azure;
+}
+.select {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.bt {
+  margin-top: 40px;
+  margin-left: 30px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: 'poppins' sans-serif;
+}
+
+h2 {
+    color: white;
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+select {
+    background: #000;
+    color: #fff;
+    display: flex;
+    margin: 10px 20px 30px 50px;
+    width: 110px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btn {
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+    height: 2rem;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+button {
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    font-weight: 600;
+}
+
+#lab1 {
+    color: #fff;
+    border: 2px solid white;
+    width: 30%;
+    margin: 50px;
+    padding: 10px 20px;
+    letter-spacing: .15rem;
+}
+
+@media screen and (max-width: 920px) {
+    #lab1 {
+
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #lab1 {
+
+        width: 90%;
+
+    }
+}
